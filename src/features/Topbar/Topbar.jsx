@@ -4,12 +4,12 @@ import { BiBell } from "react-icons/bi";
 const Topbar = () => {
   return (
     <header className="topbar">
-      <label className="search">
+      <label className="search cursor-pointer" aria-label="جست‌وجو">
         <HiMagnifyingGlass/>
         <input aria-label="جست‌وجو" placeholder="جستجو کنید" />
       </label>
       <div className="top-actions">
-        <button className="icon-button notification cli" aria-label="اعلان‌ها">
+        <button className="icon-button notification cursor-pointer" aria-label="اعلان‌ها">
           <BiBell/>
         </button>
         <span className="top-divider"></span>

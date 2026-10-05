@@ -396,7 +396,6 @@ svg {
   padding: 24px 34px 7px;
   display: grid;
   align-items: end;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 13%;
   direction: rtl;
   background: repeating-linear-gradient(
