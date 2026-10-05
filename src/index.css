@@ -948,17 +948,6 @@ td.product-cell {
   font-size: 11px;
 }
 
-.empty-hint {
-  margin-top: 18px;
-  padding: 13px;
-  color: #697b75;
-  border: 1px dashed #b9d9ce;
-  border-radius: 8px;
-  background: #f8fffc;
-  font-size: 11px;
-  line-height: 1.9;
-}
-
 @media (max-width: 1120px) {
   .summary-grid {
     grid-template-columns: repeat(2, 1fr);
